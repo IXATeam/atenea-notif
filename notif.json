@@ -1,7 +1,8 @@
 {
   "active": true,
-  "version": "1.8.0 For Revit",
-  "message": "Available right now V1.8 For Revit & Atenea V1.7 for: TEKLA, SAP2000, ETBAS, Civil 3D, Plant 3D, Navisworks. Download now!",
+  "version": "ATENEA 1.9.0",
+  "message": "Atenea available right now V1.9 For: 
+   Revit, Navisworks, TEKLA, SAP2000, ETBAS, Civil 3D, Plant 3D, Sketchup. Download now!",
   "link": "https://app.ateneaio.com",
   "linkText": "Download update"
 }
