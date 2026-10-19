@@ -1,371 +1,859 @@
-# ATENEA Telemetry Log
-# Format: fecha      | usuario     | IP     | version
-2026-07-15 21:43:52 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-15 22:06:41 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-15 23:26:25 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 06:48:39 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 06:56:25 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 07:08:33 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 07:15:55 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 07:28:42 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 07:33:54 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 07:39:51 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 08:05:36 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 08:10:34 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 08:35:03 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 17:53:02 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 17:56:52 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-17 19:31:21 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-20 05:10:44 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-20 05:22:46 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-20 05:29:59 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-20 05:44:31 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-20 21:12:51 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-20 21:17:11 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-20 21:38:35 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-21 02:37:32 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-21 02:39:57 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-21 02:45:49 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-21 02:47:37 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-21 02:57:54 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-21 16:45:05 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-21 21:08:34 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-22 05:32:08 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-22 05:49:03 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-22 06:37:34 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-22 21:37:55 UTC | IXA | 200.124.251.27 | v1.7
-2026-07-23 10:23:20 UTC | aneto | 80.39.185.128 | v1.7
-2026-07-23 14:18:28 UTC | Hope CGI | unknown | v1.7
-2026-07-23 14:52:46 UTC | Hope CGI | unknown | v1.7
-2026-07-23 15:23:20 UTC | areli.silverio | 189.175.78.169 | v1.7
-2026-07-28 00:02:59 UTC | Sergio | 148.222.223.59 | v1.7
-2026-08-01 14:53:45 UTC | Hope CGI | unknown | v1.7
-2026-08-01 15:00:14 UTC | Hope CGI | unknown | v1.7
-2026-08-02 16:54:49 UTC | Hope CGI | unknown | v1.7
-2026-08-02 19:52:03 UTC | Hope CGI | unknown | v1.7
-2026-08-02 22:01:29 UTC | Hope CGI | unknown | v1.7
-2026-08-02 23:20:29 UTC | Hope CGI | unknown | v1.7
-2026-08-03 08:16:06 UTC | aneto | 80.39.185.128 | v1.7
-2026-08-03 08:35:58 UTC | aneto | 80.39.185.128 | v1.7
-2026-08-03 16:39:21 UTC | Sergio | 200.189.31.103 | v1.7
-2026-08-03 16:45:41 UTC | Sergio | 200.189.31.103 | v1.7
-2026-08-09 17:29:22 UTC | migue | 201.185.150.118 | v1.7
-2026-08-10 00:33:10 UTC | migue | 201.185.150.118 | v1.7
-2026-08-11 04:22:35 UTC | IXA | 200.124.251.27 | v1.7
-2026-08-11 04:59:18 UTC | IXA | 200.124.251.27 | v1.7
-2026-08-11 05:03:09 UTC | IXA | 200.124.251.27 | v1.7
-2026-08-11 22:30:36 UTC | IXA | 200.124.251.27 | v1.7
-2026-08-11 22:53:31 UTC | IXA | 200.124.251.27 | v1.7
-2026-08-11 23:18:00 UTC | IXA | 200.124.251.27 | v1.7
-2026-08-12 02:05:36 UTC | migue | 201.185.150.118 | v1.7
-2026-08-12 22:15:01 UTC | IXA | 201.183.70.77 | v1.7
-2026-08-12 22:22:53 UTC | IXA | 201.183.70.77 | v1.7
-2026-08-17 08:38:12 UTC | IXA | 201.183.70.77 | v1.7
-2026-08-17 09:10:43 UTC | IXA | 201.183.70.77 | v1.7
-2026-08-17 18:16:46 UTC | Sergio | 179.238.45.35 | v1.7
-2026-08-18 00:20:22 UTC | migue | 201.185.150.118 | v1.7
-2026-08-18 19:34:36 UTC | babebe | 142.154.209.67 | v1.7
-2026-08-18 19:37:30 UTC | babebe | 142.154.209.67 | v1.7
-2026-08-18 21:27:35 UTC | babebe | 142.154.209.67 | v1.7
-2026-08-19 05:02:21 UTC | IXA | 201.183.70.77 | v1.7 Ci
-2026-08-19 05:12:49 UTC | IXA | 201.183.70.77 | v1.7 Ci
-2026-08-19 05:47:56 UTC | IXA | 201.183.70.77 | v1.7 Ci
-2026-08-19 15:15:57 UTC | babebe | 142.154.209.67 | v1.7
-2026-08-19 15:30:46 UTC | babebe | 142.154.209.67 | v1.7
-2026-08-19 19:43:54 UTC | babebe | 142.154.209.67 | v1.7
-2026-08-19 20:48:06 UTC | babebe | 142.154.209.67 | v1.7
-2026-08-19 21:15:25 UTC | IXA | 201.183.70.77 | v1.7 Ci
-2026-08-19 22:27:02 UTC | Salvador | 187.152.149.102 | v1.7
-2026-08-20 02:57:23 UTC | IXA | 201.183.70.77 | v1.7 Ci
-2026-08-20 03:04:49 UTC | IXA | 201.183.70.77 | v1.7 Ci
-2026-08-20 04:13:34 UTC | IXA | 201.183.70.77 | v1.7 Ci
-2026-08-20 04:19:21 UTC | IXA | 201.183.70.77 | v1.7 Ci
-2026-08-20 05:43:27 UTC | IXA | 201.183.70.77 | v1.7 P3D
-2026-08-20 06:07:25 UTC | IXA | 201.183.70.77 | v1.7 P3D
-2026-08-20 20:36:12 UTC | IXA | 201.183.70.77 | v1.7
-2026-08-22 14:56:14 UTC | austr | 45.230.38.161 | v1.7
-2026-08-22 17:32:34 UTC | austr | 45.230.38.161 | v1.7
-2026-08-22 20:57:47 UTC | IXA | unknown | v1.7 ET
-2026-08-23 00:17:39 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-23 00:30:50 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-23 00:37:27 UTC | IXA | 201.183.70.77 | v1.7
-2026-08-23 00:56:11 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-23 01:08:52 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-23 01:14:46 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-23 01:34:10 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-23 01:50:41 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-23 17:50:51 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-24 01:23:41 UTC | IXA | 201.183.70.77 | v1.7
-2026-08-24 06:21:27 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-24 06:30:44 UTC | IXA | 201.183.70.77 | v1.7 ET
-2026-08-24 07:37:51 UTC | IXA | 201.183.70.77 | v1.7 SAP
-2026-08-24 16:31:30 UTC | Hope CGI | unknown | v1.7
-2026-08-24 16:57:42 UTC | Hope CGI | unknown | v1.7
-2026-08-24 17:23:14 UTC | Salvador | 187.152.149.102 | v1.7
-2026-08-24 18:40:39 UTC | babebe | 142.154.209.67 | v1.7
-2026-08-25 04:34:28 UTC | IXA | 201.183.70.77 | v1.7 SAP
-2026-08-25 04:46:43 UTC | IXA | 201.183.70.77 | v1.7 SAP
-2026-08-25 16:13:45 UTC | babebe | 142.154.209.67 | v1.7
-2026-08-25 16:18:00 UTC | aida.coronado | 177.125.136.14 | v1.7
-2026-08-25 17:01:59 UTC | IXA | 201.183.70.77 | v1.7
-2026-08-25 23:59:51 UTC | migue | 201.185.150.118 | v1.7
-2026-08-26 01:50:30 UTC | migue | 201.185.150.118 | v1.7
-2026-08-28 23:57:17 UTC | IXA | 201.183.70.77 | v1.7 P3D
-2026-08-29 00:54:12 UTC | Hope CGI | unknown | v1.7
-2026-08-29 01:37:33 UTC | Hope CGI | unknown | v1.7
-2026-09-01 05:26:51 UTC | IXA | 191.99.6.198 | v1.7 TK
-2026-09-01 05:47:17 UTC | IXA | 191.99.6.198 | v1.7 TK
-2026-09-01 06:24:03 UTC | IXA | 191.99.6.198 | v1.7 TK
-2026-09-01 06:54:05 UTC | IXA | 191.99.6.198 | v1.7 TK
-2026-09-02 18:13:26 UTC | babebe | 142.154.209.67 | v1.7
-2026-09-03 19:07:19 UTC | babebe | 142.154.209.67 | v1.7
-2026-09-04 21:44:30 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-04 22:05:44 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-04 22:37:22 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-04 22:38:05 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-05 17:54:08 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-05 17:58:00 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-05 17:58:58 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-05 18:07:01 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-06 06:43:19 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-06 07:27:40 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-06 07:29:08 UTC | IXA | 191.99.6.198 | v1.7 NW
-2026-09-06 22:10:54 UTC | IXA | 191.99.6.198 | v1.7
-2026-09-06 22:50:31 UTC | IXA | 191.99.6.198 | v1.7
-2026-09-06 23:01:28 UTC | IXA | 191.99.6.198 | v1.7
-2026-09-07 02:29:28 UTC | IXA | 191.99.6.198 | v1.7
-2026-09-07 02:41:34 UTC | IXA | 191.99.6.198 | v1.7
-2026-09-07 02:53:45 UTC | IXA | 191.99.6.198 | v1.7
-2026-09-07 06:16:28 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-07 06:37:42 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-07 20:05:24 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-07 20:14:22 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-07 20:45:10 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-07 22:14:02 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-07 22:32:34 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-08 05:28:03 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-08 05:45:36 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-08 05:53:06 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-08 05:56:59 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-08 22:28:00 UTC | USER | 189.216.116.245 | v1.7
-2026-09-08 23:10:34 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-08 23:31:08 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 02:54:00 UTC | Hope CGI | unknown | v1.7
-2026-09-09 02:54:07 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 03:11:04 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 04:43:25 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 05:35:38 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 05:52:21 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 05:56:56 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 06:22:27 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 06:25:21 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 06:29:20 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 06:31:11 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 06:37:05 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 07:01:27 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 07:04:32 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 07:13:16 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 07:58:57 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 08:10:52 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 16:32:07 UTC | USER | 189.216.117.67 | v1.7
-2026-09-09 17:01:42 UTC | USER | 189.216.117.67 | v1.7
-2026-09-09 20:13:16 UTC | Hope CGI | unknown | v1.7
-2026-09-09 20:23:47 UTC | Hope CGI | unknown | v1.8 RV
-2026-09-09 22:24:24 UTC | austr | 186.175.129.234 | v1.8 RV
-2026-09-09 22:36:48 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-09 23:06:19 UTC | IXA | 191.99.6.198 | v1.8 RV
-2026-09-10 01:43:13 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-10 10:53:11 UTC | aneto | 80.39.185.128 | v1.7
-2026-09-10 18:13:47 UTC | babebe | 142.154.209.67 | v1.7
-2026-09-10 18:30:33 UTC | austr | 186.175.18.177 | v1.8 RV
-2026-09-10 19:34:52 UTC | babebe | 142.154.209.67 | v1.7
-2026-09-10 19:52:59 UTC | austr | 186.175.18.177 | v1.8 RV
-2026-09-10 21:56:13 UTC | austr | 186.175.18.177 | v1.8 RV
-2026-09-10 22:27:06 UTC | Hope CGI | 172.59.203.163 | v1.8 RV
-2026-09-11 07:06:30 UTC | aneto | 80.39.185.128 | v1.7
-2026-09-11 15:14:27 UTC | babebe | 142.154.209.67 | v1.7
-2026-09-11 22:14:53 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-11 22:39:08 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-11 23:00:17 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-12 03:44:50 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-12 05:20:35 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-12 05:22:59 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-12 05:25:23 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-12 05:32:31 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-12 05:41:56 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-12 17:25:12 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-12 17:48:56 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-12 21:48:39 UTC | austr | 186.175.90.247 | v1.7 P3D
-2026-09-13 05:39:04 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-13 05:48:02 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-13 06:45:07 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-13 18:50:26 UTC | Hope CGI | unknown | v1.8 RV
-2026-09-13 19:31:55 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-13 19:54:37 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-13 20:12:38 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-13 21:06:28 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-13 21:54:33 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-14 04:32:09 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-14 04:51:47 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-14 14:58:21 UTC | babebe | 142.154.209.67 | v1.7
-2026-09-14 16:46:06 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-14 18:29:53 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-14 20:44:40 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-14 21:17:56 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-14 22:54:29 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-14 23:34:59 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-15 03:17:18 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-15 17:42:57 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-15 19:33:03 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-16 05:49:38 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-16 06:38:21 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-17 04:45:16 UTC | Hope CGI | unknown | v1.8 RV
-2026-09-17 04:46:17 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-17 05:04:12 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-17 15:31:37 UTC | migue | 201.185.150.118 | v1.7
-2026-09-17 16:30:05 UTC | Rahul Sasikumar | 223.181.11.60 | v1.7 NW
-2026-09-17 16:54:30 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-17 18:56:21 UTC | Rahul Sasikumar | 223.181.11.60 | v1.7 NW
-2026-09-17 20:22:18 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-17 20:34:29 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-18 03:40:32 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-18 03:55:30 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-18 09:31:53 UTC | aneto | 80.39.185.128 | v1.7
-2026-09-18 11:04:44 UTC | aneto | 80.39.185.128 | v1.7
-2026-09-18 22:59:16 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-19 02:09:50 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-19 02:42:28 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-19 18:27:56 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-19 18:58:30 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-20 06:47:29 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-21 00:03:30 UTC | migue | 201.185.150.118 | v1.7
-2026-09-22 06:39:10 UTC | Rahul Sasikumar | 103.214.233.227 | v1.8 RV
-2026-09-22 06:46:42 UTC | Rahul Sasikumar | unknown | v1.7 NW
-2026-09-22 08:22:45 UTC | Rahul Sasikumar | unknown | v1.8 RV
-2026-09-22 10:21:04 UTC | Rahul Sasikumar | unknown | v1.8 RV
-2026-09-23 10:49:10 UTC | Aneto11 | 80.39.185.128 | v1.8 RV
-2026-09-23 11:13:57 UTC | aneto | 80.39.185.128 | v1.7
-2026-09-23 16:40:27 UTC | babebe | 142.154.209.67 | v1.7
-2026-09-24 00:27:33 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-24 21:57:10 UTC | Hope CGI | unknown | v1.8 RV
-2026-09-24 22:24:57 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-24 22:55:11 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-24 23:15:47 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-28 16:58:25 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-28 23:28:12 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-29 07:15:36 UTC | USER | 189.216.117.67 | v1.8 RV
-2026-09-29 09:16:48 UTC | aneto | 80.39.185.128 | v1.7
-2026-09-29 16:34:41 UTC | walte | 188.78.196.249 | v1.8 RV
-2026-09-29 18:16:36 UTC | walte | 188.78.196.249 | v1.8 RV
-2026-09-30 05:18:24 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-30 05:22:35 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-30 05:42:47 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-30 05:44:52 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-30 05:48:13 UTC | IXA | 191.99.55.201 | v1.7 SK
-2026-09-30 18:17:58 UTC | walte | 188.78.196.249 | v1.8 RV
-2026-09-30 18:22:50 UTC | walte | 188.78.196.249 | v1.8 RV
-2026-10-02 09:51:58 UTC | aneto | 80.39.185.128 | v1.7
-2026-10-02 11:26:23 UTC | t_soc | 5.91.42.207 | v1.8 RV
-2026-10-03 21:23:19 UTC | USER | 189.216.117.2 | v1.8 RV
-2026-10-03 22:00:29 UTC | USER | 189.216.117.2 | v1.8 RV
-2026-10-05 08:04:57 UTC | aneto | 80.39.185.128 | v1.7
-2026-10-05 08:11:13 UTC | aneto | 80.39.185.128 | v1.7
-2026-10-06 12:20:53 UTC | aneto | 80.39.185.128 | v1.7
-2026-10-06 20:54:59 UTC | t_soc | 93.150.206.177 | v1.8 RV
-2026-10-07 05:45:13 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-07 07:31:06 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-07 07:58:23 UTC | IXA | 191.99.31.241 | v1.7 TK
-2026-10-07 08:05:44 UTC | IXA | 191.99.31.241 | v1.7 SK
-2026-10-07 09:56:24 UTC | Abdullah.M | unknown | v1.8 RV
-2026-10-07 09:58:01 UTC | Abdullah.M | 84.36.138.139 | v1.8 RV
-2026-10-07 10:18:31 UTC | Abdullah.M | 84.36.138.139 | v1.8 RV
-2026-10-07 11:24:14 UTC | Abdullah.M | 84.36.138.136 | v1.8 RV
-2026-10-07 12:37:17 UTC | Abdullah.M | 84.36.138.139 | v1.8 RV
-2026-10-08 01:48:30 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-08 02:17:48 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-08 02:23:53 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-08 02:48:10 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-08 02:51:39 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-08 03:03:05 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-08 04:27:22 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-08 04:29:10 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-08 04:30:47 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-08 05:24:20 UTC | USER | 189.216.117.2 | v1.8 RV
-2026-10-08 05:47:19 UTC | USER | 189.216.117.2 | v1.7 NW
-2026-10-08 14:37:13 UTC | USER | 189.216.117.2 | v1.8 RV
-2026-10-09 05:36:12 UTC | rcw-012kpq8km3hp3phcyk8cmxbc | unknown | v1.7 SK
-2026-10-09 05:36:34 UTC | rcw-012kpq8km3hp3phcyk8cmxbc | unknown | v1.7 SK
-2026-10-09 05:36:48 UTC | rcw-012kpq8km3hp3phcyk8cmxbc | unknown | v1.7 SK
-2026-10-09 05:36:59 UTC | rcw-012kpq8km3hp3phcyk8cmxbc | unknown | v1.7 SK
-2026-10-09 05:37:14 UTC | rcw-012kpq8km3hp3phcyk8cmxbc | unknown | v1.7 SK
-2026-10-09 05:37:25 UTC | rcw-012kpq8km3hp3phcyk8cmxbc | unknown | v1.7 SK
-2026-10-09 05:38:02 UTC | rcw-012kpq8km3hp3phcyk8cmxbc | unknown | v1.7 SK
-2026-10-09 09:59:11 UTC | Aneto11 | 80.39.185.128 | v1.8 RV
-2026-10-09 10:41:59 UTC | MD | 159.26.107.17 | v1.8 RV
-2026-10-09 17:58:45 UTC | babebe | 142.154.209.67 | v1.8 RV
-2026-10-09 21:26:50 UTC | IXA | 191.99.31.241 | v1.7 SK
-2026-10-09 21:49:56 UTC | IXA | 191.99.31.241 | v1.7 SK
-2026-10-10 03:24:23 UTC | USER | 189.216.117.2 | v1.8 RV
-2026-10-10 07:27:36 UTC | USER | 189.216.117.2 | v1.9 RV
-2026-10-10 07:47:22 UTC | USER | 189.216.117.2 | v1.9 NW
-2026-10-10 08:23:48 UTC | USER | 189.216.117.2 | v1.9 Ci
-2026-10-10 08:32:52 UTC | USER | 189.216.117.2 | v1.9 SK
-2026-10-10 17:58:30 UTC | USER | 189.216.117.2 | v1.9 TK
-2026-10-12 03:29:22 UTC | USER | 189.216.117.2 | v1.9 RV
-2026-10-12 16:51:52 UTC | Salvador | 187.152.145.185 | v1.7
-2026-10-12 17:07:13 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-12 17:09:38 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-12 17:12:36 UTC | IXA | 191.99.31.241 | v1.8 RV
-2026-10-12 17:52:10 UTC | IXA | 191.99.31.241 | v1.9 RH
-2026-10-12 20:07:24 UTC | IXA | 191.99.31.241 | v1.9 RH
-2026-10-13 05:50:39 UTC | IXA | 191.99.31.241 | v1.9 P3D
-2026-10-13 05:52:32 UTC | IXA | 191.99.31.241 | v1.9 P3D
-2026-10-13 06:04:43 UTC | MD | 149.102.236.221 | v1.8 RV
-2026-10-13 06:07:27 UTC | IXA | 191.99.31.241 | v1.9 AC
-2026-10-13 06:55:55 UTC | MD | 149.102.236.221 | v1.9 RV
-2026-10-13 08:11:38 UTC | t_soc | 5.91.36.82 | v1.8 RV
-2026-10-13 13:47:29 UTC | babebe | 142.154.209.67 | v1.8 RV
-2026-10-13 15:48:28 UTC | MD | 149.102.236.221 | v1.9 RV
-2026-10-13 17:43:40 UTC | Hope CGI | unknown | v1.9 RV
-2026-10-14 01:13:04 UTC | austr | 186.173.58.92 | v1.7 P3D
-2026-10-15 06:29:56 UTC | IXA | 201.183.70.94 | v1.9 AC
-2026-10-15 06:33:31 UTC | IXA | 201.183.70.94 | v1.9 AC
-2026-10-15 11:27:34 UTC | aneto | 80.39.185.128 | v1.7
-2026-10-15 20:56:40 UTC | USER | 189.216.117.2 | v1.9 TK
-2026-10-15 20:57:06 UTC | USER | 189.216.117.2 | v1.9 TK
-2026-10-15 20:58:00 UTC | USER | 189.216.117.2 | v1.9 SK
-2026-10-15 21:42:22 UTC | USER | 189.216.117.2 | v1.9 RV
-2026-10-15 21:44:16 UTC | USER | 189.216.117.2 | v1.9 RV
-2026-10-15 21:45:12 UTC | USER | 189.216.117.2 | v1.9 RV
-2026-10-15 21:45:54 UTC | USER | 189.216.117.2 | v1.9 Ci
-2026-10-15 21:47:24 UTC | USER | 189.216.117.2 | v1.9 P3D
-2026-10-15 21:48:28 UTC | USER | 189.216.117.2 | v1.9 RH
-2026-10-15 21:49:48 UTC | USER | 189.216.117.2 | v1.9 NW
-2026-10-15 21:51:51 UTC | USER | 189.216.117.2 | v1.9 AC
-2026-10-15 21:56:28 UTC | USER | 189.216.117.2 | v1.9 ET
-2026-10-15 21:59:03 UTC | USER | 189.216.117.2 | v1.9 SAP
-2026-10-15 23:45:36 UTC | USER | 189.216.117.2 | v1.9 AC
-2026-10-15 23:46:55 UTC | USER | 189.216.117.2 | v1.9 P3D
-2026-10-15 23:47:49 UTC | USER | 189.216.117.2 | v1.9 Ci
-2026-10-15 23:48:45 UTC | USER | 189.216.117.2 | v1.9 ET
-2026-10-15 23:51:28 UTC | USER | 189.216.117.2 | v1.9 NW
-2026-10-15 23:52:43 UTC | USER | 189.216.117.2 | v1.9 RV
-2026-10-15 23:55:36 UTC | USER | 189.216.117.2 | v1.9 RH
-2026-10-15 23:56:20 UTC | USER | 189.216.117.2 | v1.9 SK
-2026-10-15 23:57:07 UTC | USER | 189.216.117.2 | v1.9 SAP
-2026-10-15 23:58:38 UTC | USER | 189.216.117.2 | v1.9 TK
-2026-10-16 00:59:34 UTC | USER | 189.216.117.2 | v1.9 SAP
-2026-10-16 12:41:31 UTC | t_soc | 5.91.35.179 | v1.8 RV
-2026-10-16 14:57:55 UTC | babebe | 142.154.209.67 | v1.8 RV
-2026-10-16 22:10:29 UTC | t_soc | 151.27.74.184 | v1.8 RV
-2026-10-17 00:05:50 UTC | USER | 189.216.117.2 | v1.9 NW
-2026-10-17 00:17:55 UTC | USER | 189.216.117.2 | v1.9 TK
-2026-10-17 00:18:30 UTC | USER | 189.216.117.2 | v1.9 ET
-2026-10-17 16:56:35 UTC | IXA | 201.183.70.94 | v1.8 RV
-2026-10-17 17:16:41 UTC | IXA | 201.183.70.94 | v1.8 RV
-2026-10-18 20:36:47 UTC | t_soc | 151.27.74.184 | v1.8 RV
-2026-10-19 07:45:57 UTC | MD | 159.26.107.21 | v1.9 RV
-2026-10-19 15:15:50 UTC | IXA | 201.183.70.94 | v1.8 RV
-2026-10-19 15:54:12 UTC | IXA | 201.183.70.94 | v1.8 RV
-2026-10-19 16:02:11 UTC | USER | 189.216.117.2 | v1.9 SK
-2026-10-19 16:02:34 UTC | USER | 189.216.117.2 | v1.9 AC
+// ============================================================================
+// ATENEA — LÓGICA DE DISTRIBUCIÓN AUTOMÁTICA FARMACIAS DEL AHORRO (FA)
+// PROTOTIPO 1: "PLUS MEDIA CALLE NSE ALTO" — 29 pasos
+// Traducción completa y literal del documento maestro de 29 pasos a C# compilable.
+// ENTRADA ÚNICA: 4 puntos (P1, P2, P3, P4) en metros, en sentido
+// P1(frente-izq) -> P2(frente-der) -> P3(atrás-der) -> P4(atrás-izq).
+// Todo lo demás (Q2, Q3, C1-C7, B1, B2, D1, D2, E1-E3, F1-F6, G1-G7, J1, Cj1)
+// se deriva matemáticamente de estos 4 puntos, recalculado desde cero.
+// Uso: FA_GenerarSucursal.Generar(document, xP1,yP1, xP2,yP2, xP3,yP3, xP4,yP4);
+//
+// CORRECCIONES v1.9.1 (validadas en Revit 2025 contra caso real con muros
+// inclinados, antes de aplicar a producción):
+//   - PASO 21 (SOM): formula AnS corregida (signo de rotacion invertido respecto
+//     a la inclinacion real del muro P2-P3).
+//   - PASO 17 (Mobiliario tras mostrador): las familias se insertaban sin rotar;
+//     ahora rotan con el angulo real de dirB1B2 (misma referencia que su posicion).
+//   - PASO 28 (Cajon ADA): posicion ahora usa perpP1P2 (perpendicular real, no
+//     dirP1P4) y rotacion final corregida a Angulo(P1->P2)+180° tras el espejo.
+// ============================================================================
+
+using System;
+using System.Collections.Generic;
+using Autodesk.Revit.DB;
+using Autodesk.Revit.DB.Structure;
+
+public static class FA_GenerarSucursal
+{
+    const double M = 3.280839895013123; // metros a pies
+
+    // ---------- Utilidades geométricas ----------
+
+    static XYZ Pt(double x, double y) { return new XYZ(x * M, y * M, 0); }
+
+    static XYZ Interseccion(XYZ p1, XYZ d1, XYZ p2, XYZ d2)
+    {
+        double denom = d1.X * d2.Y - d1.Y * d2.X;
+        double t = ((p2.X - p1.X) * d2.Y - (p2.Y - p1.Y) * d2.X) / denom;
+        return p1 + d1 * t;
+    }
+
+    static XYZ Perp(XYZ dir) { return new XYZ(-dir.Y, dir.X, 0); }
+
+    static double AnguloDe(XYZ dir) { return Math.Atan2(dir.Y, dir.X); }
+
+    static double AnguloAB(XYZ a, XYZ b) { return Math.Atan2(b.Y - a.Y, b.X - a.X); }
+
+    static FamilySymbol BuscarSimbolo(Document doc, string familia, string tipo)
+    {
+        FilteredElementCollector col = new FilteredElementCollector(doc).OfClass(typeof(FamilySymbol));
+        foreach (Element e in col)
+        {
+            FamilySymbol fs = e as FamilySymbol;
+            if (fs == null || fs.Family == null) continue;
+            if (fs.Family.Name == familia && fs.Name == tipo) return fs;
+        }
+        return null;
+    }
+
+    static void Activar(Document doc, FamilySymbol sym)
+    {
+        if (sym != null && !sym.IsActive) sym.Activate();
+    }
+
+    static WallType BuscarTipoMuro(Document doc, string nombre)
+    {
+        FilteredElementCollector col = new FilteredElementCollector(doc).OfClass(typeof(WallType));
+        foreach (Element e in col)
+        {
+            if (e.Name == nombre) return e as WallType;
+        }
+        return null;
+    }
+
+    static Level NivelBase(Document doc)
+    {
+        FilteredElementCollector col = new FilteredElementCollector(doc).OfClass(typeof(Level));
+        Level nivel = null;
+        double minElev = double.MaxValue;
+        foreach (Element e in col)
+        {
+            Level lvl = e as Level;
+            if (lvl != null && lvl.Elevation < minElev) { minElev = lvl.Elevation; nivel = lvl; }
+        }
+        return nivel;
+    }
+
+    static FamilyInstance Colocar(Document doc, XYZ centro, FamilySymbol sym, double anguloRad)
+    {
+        FamilyInstance fi = doc.Create.NewFamilyInstance(centro, sym, StructuralType.NonStructural);
+        if (Math.Abs(anguloRad) > 1e-9)
+            ElementTransformUtils.RotateElement(doc, fi.Id, Line.CreateBound(centro, centro + XYZ.BasisZ), anguloRad);
+        return fi;
+    }
+
+    static int ColocarPatronG(Document doc, double[,] patron, XYZ puntoBase,
+        XYZ perpP1P2, double anguloP1P2, FamilySymbol symCabecera, FamilySymbol symGondola)
+    {
+        int colocados = 0;
+        int filas = patron.GetLength(0);
+        for (int i = 0; i < filas; i++)
+        {
+            double dist = patron[i, 0];
+            bool cab = patron[i, 1] > 0.5;
+            double rot = patron[i, 2];
+            XYZ centro = puntoBase + perpP1P2 * (dist * M);
+            FamilySymbol sym = cab ? symCabecera : symGondola;
+            double angulo = anguloP1P2 + (rot * Math.PI / 180.0);
+            Colocar(doc, centro, sym, angulo);
+            colocados++;
+        }
+        return colocados;
+    }
+
+    // ---------- Función principal ----------
+
+    public static string Generar(
+        Document document,
+        double xP1, double yP1,
+        double xP2, double yP2,
+        double xP3, double yP3,
+        double xP4, double yP4)
+    {
+        XYZ P1 = Pt(xP1, yP1);
+        XYZ P2 = Pt(xP2, yP2);
+        XYZ P3 = Pt(xP3, yP3);
+        XYZ P4 = Pt(xP4, yP4);
+
+        // ---------- VALIDACIÓN PREVIA ----------
+        double Sa1chk = P3.DistanceTo(P4) / M;
+        if (Sa1chk < 21.35 || Sa1chk > 23.75)
+        {
+            return "LAS MEDIDAS INGRESADAS NO CUMPLEN CON LOS ESTÁNDARES DE ESTE MODELO. " +
+                   "Distancia P3-P4 ingresada: " + Sa1chk.ToString("F3") + " metros. " +
+                   "Rango permitido: mínimo 21.35 metros, máximo 23.75 metros.";
+        }
+
+        int totalColocados = 0;
+        int totalMuros = 0;
+
+        using (SubTransaction t = new SubTransaction(document))
+        {
+            t.Start();
+
+            // ===== PASO 1 =====
+            XYZ dirP1P2 = (P2 - P1).Normalize();
+            XYZ dirP1P4 = (P4 - P1).Normalize();
+
+            // ===== PASO 2 =====
+            XYZ dirP2P3 = (P3 - P2).Normalize();
+            XYZ perpP2P3 = Perp(dirP2P3);
+            if (perpP2P3.DotProduct(P1 - P2) < 0) perpP2P3 = perpP2P3.Negate();
+            XYZ puntoOffsetQ = P2 + perpP2P3 * (2.95 * M);
+            XYZ Q2 = Interseccion(puntoOffsetQ, dirP2P3, P1, dirP1P2);
+            XYZ dirP3P4 = (P4 - P3).Normalize();
+            XYZ Q3 = Interseccion(puntoOffsetQ, dirP2P3, P3, dirP3P4);
+            XYZ dirQ2Q3 = (Q3 - Q2).Normalize();
+
+            // ===== PASO 3 =====
+            XYZ C1 = (P1 + Q2) / 2.0;
+
+            // ===== PASO 4 =====
+            XYZ dirP1Q2 = (Q2 - P1).Normalize();
+            XYZ perpB = Perp(dirP1Q2);
+            if (perpB.DotProduct(P4 - P1) < 0) perpB = perpB.Negate();
+            XYZ puntoParalelaB = P1 + perpB * (7.96 * M);
+            XYZ B1 = Interseccion(puntoParalelaB, dirP1Q2, P1, dirP1P4);
+            XYZ B2 = Interseccion(puntoParalelaB, dirP1Q2, Q2, dirQ2Q3);
+            XYZ dirB1B2 = (B2 - B1).Normalize();
+
+            // ===== PASO 5 =====
+            XYZ C2 = C1 - dirP1P2 * (1.48 * M);
+            XYZ C3 = C1 + dirP1P2 * (1.48 * M);
+
+            // ===== PASO 6 =====
+            XYZ C4 = P1 + dirP1P2 * (2.33 * M);
+            XYZ C5 = Q2 - dirP1P2 * (0.82 * M);
+
+            // ===== PASO 7 =====
+            XYZ C6 = (C4 + C2) / 2.0;
+            XYZ C7 = (C3 + C5) / 2.0;
+
+            // ===== PASO 9 (Muretes exteriores) =====
+            WallType wtBloque = BuscarTipoMuro(document, "MU-BLOCK DE CONCRETO-EXTERIOR FARMACIA - 15CM");
+            Level nivel = NivelBase(document);
+            double altura = 3.0 * M;
+            if (wtBloque == null || nivel == null)
+            {
+                t.RollBack();
+                return "ERROR: no se encontró el tipo de muro MU-BLOCK DE CONCRETO-EXTERIOR FARMACIA - 15CM o ningún nivel.";
+            }
+
+            Wall.Create(document, Line.CreateBound(C5, Q2), wtBloque.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(Q2, P2), wtBloque.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(P2, P3), wtBloque.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(P3, P4), wtBloque.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(P4, P1), wtBloque.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(P1, C4), wtBloque.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(Q2, Q3), wtBloque.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+
+            double mitadMurete = 0.18 * M;
+            Wall.Create(document, Line.CreateBound(C6 - dirP1P2 * mitadMurete, C6 + dirP1P2 * mitadMurete), wtBloque.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(C7 - dirP1P2 * mitadMurete, C7 + dirP1P2 * mitadMurete), wtBloque.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+
+            // ===== PASO 10 (Muros interiores + fachada) =====
+            WallType wtNovaceramic = BuscarTipoMuro(document, "MU-NOVACERAMIC INTERIOR-11CM");
+            WallType wtCortina = BuscarTipoMuro(document, "MC-CORTINA DE CRISTAL CON MARCOS DE ALUMINIO");
+            WallType wtDurock = BuscarTipoMuro(document, "MU-DUROCK 2 HOJAS INTERIOR-9.20CM");
+            if (wtNovaceramic == null || wtCortina == null || wtDurock == null)
+            {
+                t.RollBack();
+                return "ERROR: no se encontró uno de los tipos de muro del Paso 10 (Novaceramic, Cortina o Durock).";
+            }
+
+            XYZ par = dirP1P2;
+            XYZ perpPar = Perp(par);
+            double e041 = 0.41 * M, e032 = 0.32 * M, e082 = 0.82 * M;
+
+            XYZ C3b = C3 + par * e032;
+            XYZ c3A = C3b + perpPar * e041;
+            XYZ c3B = c3A - par * e032;
+            XYZ c3C = c3B - perpPar * e082;
+            XYZ c3D = c3C + par * e032;
+            Wall.Create(document, Line.CreateBound(C3b, c3A), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(c3A, c3B), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(c3B, c3C), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(c3C, c3D), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(c3D, C3b), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+
+            XYZ c2A = C2 + perpPar * e041;
+            XYZ c2B = c2A - par * e032;
+            XYZ c2C = c2B - perpPar * e082;
+            XYZ c2D = c2C + par * e032;
+            Wall.Create(document, Line.CreateBound(C2, c2A), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(c2A, c2B), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(c2B, c2C), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(c2C, c2D), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(c2D, C2), wtNovaceramic.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+
+            // Muros cortina (fachada + puerta)
+            Wall.Create(document, Line.CreateBound(C4, C6 - par * (0.18 * M)), wtCortina.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(C6 + par * (0.18 * M), C2 - par * (0.38 * M)), wtCortina.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(C3 + par * (0.38 * M), C7 - par * (0.18 * M)), wtCortina.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(C7 + par * (0.18 * M), C5), wtCortina.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            Wall.Create(document, Line.CreateBound(C1, C3), wtCortina.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+
+            // Muros Durock (division piso de tienda / trastienda) - requieren F4, F6 (Paso 15) y J1 (Paso 27), calculados mas abajo por eso se insertan al final del bloque de calculo de F. Ver mas abajo tras Paso 15/27.
+
+            // ===== PASO 11 =====
+            XYZ D1 = P1 + dirP1P4 * (0.81 * M);
+            XYZ D2 = B1 - dirP1P4 * (0.55 * M);
+
+            // ===== PASO 12 (Góndolas Derma Izq.) =====
+            FamilySymbol symDerma = BuscarSimbolo(document, "FDA - GONDOLA DERMA", "0.30L X 0.46A X 2.43H");
+            if (symDerma == null) { t.RollBack(); return "ERROR: no se encontró FDA - GONDOLA DERMA / 0.30L X 0.46A X 2.43H."; }
+            Activar(document, symDerma);
+            {
+                double totalLen = D1.DistanceTo(D2) / M;
+                double ancho = 0.34;
+                int n = (int)Math.Floor(totalLen / ancho + 1e-6);
+                double sobrante = totalLen - n * ancho;
+                double start = sobrante / 2.0 + ancho / 2.0;
+                XYZ dirRow = (D2 - D1).Normalize();
+                XYZ perp = new XYZ(dirRow.Y, -dirRow.X, 0);
+                double angulo = AnguloDe(perp) + (Math.PI / 2.0);
+                for (int i = 0; i < n; i++)
+                {
+                    double dist = (start + i * ancho) * M;
+                    XYZ centro = D1 + dirRow * dist + perp * (0.40 * M);
+                    Colocar(document, centro, symDerma, angulo);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 13 =====
+            XYZ E2 = Q2 + dirQ2Q3 * (2.97 * M);
+            XYZ E3 = B2 - dirQ2Q3 * (0.55 * M);
+
+            // ===== PASO 14 (Góndolas de Pared) =====
+            FamilySymbol symPared = BuscarSimbolo(document, "FDA - GONDOLA DE PARED", "GONDOLA DE PARED 0.60L X 0.46A X 2.43H");
+            if (symPared == null) { t.RollBack(); return "ERROR: no se encontró FDA - GONDOLA DE PARED / GONDOLA DE PARED 0.60L X 0.46A X 2.43H."; }
+            Activar(document, symPared);
+            {
+                double totalLen = E2.DistanceTo(E3) / M;
+                double ancho = 0.638;
+                int n = (int)Math.Floor(totalLen / ancho + 1e-6);
+                double sobrante = totalLen - n * ancho;
+                double start = sobrante / 2.0 + ancho / 2.0;
+                XYZ dirRow = (E3 - E2).Normalize();
+                XYZ perp = new XYZ(-dirRow.Y, dirRow.X, 0);
+                double angulo = AnguloDe(perp) + (Math.PI / 2.0);
+                for (int i = 0; i < n; i++)
+                {
+                    double dist = (start + i * ancho) * M;
+                    XYZ centro = E2 + dirRow * dist + perp * (0.40 * M);
+                    Colocar(document, centro, symPared, angulo);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 15 (F1-F6) =====
+            double Sa1 = P3.DistanceTo(P4) / M;
+            double Sa2 = B2.DistanceTo(B1) / M;
+            double Di1 = 0.57, Di2 = 0.57, Di4 = 0.57, Di5 = 9.01, Di6 = 0.85;
+            double sumaConstantes = Di1 + Di2 + Di4 + Di5 + Di6;
+            double Di3, Di7;
+            if (Sa1 >= 21.35 && Sa1 < 21.95) { Di7 = 4.04; Di3 = Sa2 - sumaConstantes - Di7; }
+            else { Di3 = 3.39; Di7 = Sa2 - sumaConstantes - Di3; }
+
+            XYZ F2 = B1 + dirB1B2 * (Di1 * M);
+            XYZ F1 = B2 - dirB1B2 * (Di2 * M);
+            XYZ F3 = F2 + dirB1B2 * (Di3 * M);
+            XYZ F4 = F3 + dirB1B2 * (Di4 * M);
+            XYZ F5 = F4 + dirB1B2 * (Di5 * M);
+            XYZ F6 = F5 + dirB1B2 * (Di6 * M);
+
+            // ===== PASO 16 (Góndolas Derma atrás + Góndola de Pared) =====
+            {
+                XYZ perp = new XYZ(dirB1B2.Y, -dirB1B2.X, 0);
+                double angulo = AnguloDe(perp) + (Math.PI / 2.0);
+                double offsetPerp = 0.33 * M;
+
+                double anchoDerma = 0.34;
+                int nDerma = (int)Math.Floor(Di3 / anchoDerma + 1e-6);
+                double sobranteDerma = Di3 - nDerma * anchoDerma;
+                double startDerma = sobranteDerma / 2.0 + anchoDerma / 2.0;
+                for (int i = 0; i < nDerma; i++)
+                {
+                    double dist = (startDerma + i * anchoDerma) * M;
+                    XYZ centro = F2 + dirB1B2 * dist + perp * offsetPerp;
+                    Colocar(document, centro, symDerma, angulo);
+                    totalColocados++;
+                }
+
+                double anchoPared = 0.638;
+                int nPared = (int)Math.Floor(Di7 / anchoPared + 1e-6);
+                double sobrantePared = Di7 - nPared * anchoPared;
+                double startPared = sobrantePared / 2.0 + anchoPared / 2.0;
+                for (int i = 0; i < nPared; i++)
+                {
+                    double dist = (startPared + i * anchoPared) * M;
+                    XYZ centro = F6 + dirB1B2 * dist + perp * offsetPerp;
+                    Colocar(document, centro, symPared, angulo);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 17 (Mobiliario tras mostrador) =====
+            // CORREGIDO v1.9.1: las familias se insertaban SIN rotacion, lo que las dejaba
+            // en "dientes de sierra" en cuanto F4-F5 no era perfectamente horizontal. Ahora
+            // se rota cada una con el angulo real de dirB1B2 (misma referencia que su posicion).
+            {
+                FamilySymbol symAnaquel = BuscarSimbolo(document, "ANAQUEL TRANSMOSTRADOR (2)", "Anaquel Transmostrador_1.20");
+                FamilySymbol symPasgl = BuscarSimbolo(document, "FDA - PASGL ACCESO TRASTIENDA", "FDA - PASGL ACCESO TRASTIENDA");
+                FamilySymbol symPantalla = BuscarSimbolo(document, "FDA - ANAQUEL TRANSMOSTRADOR CON PANTALLA", "Anaquel Transmostrador");
+                if (symAnaquel == null || symPasgl == null || symPantalla == null)
+                { t.RollBack(); return "ERROR: falta una familia del Paso 17 (Anaquel Transmostrador, Pasgl o Anaquel con Pantalla)."; }
+                Activar(document, symAnaquel); Activar(document, symPasgl); Activar(document, symPantalla);
+
+                XYZ perp17 = new XYZ(dirB1B2.Y, -dirB1B2.X, 0); // misma perpendicular usada en Paso 16, coherente con B1-B2
+                double anguloB1B2_17 = AnguloDe(dirB1B2);
+                var items17 = new (double dist, double off, FamilySymbol sym)[]
+                {
+                    (0.6717, 0.2624, symAnaquel),
+                    (1.29,   0.60,   symPasgl),
+                    (2.76,   0.2624, symAnaquel),
+                    (3.96,   0.2624, symAnaquel),
+                    (5.1604, 0.2624, symAnaquel),
+                    (6.3603, 0.2624, symAnaquel),
+                    (7.5791, 0.31,   symPantalla),
+                    (8.2175, 0.60,   symPasgl),
+                };
+                List<ElementId> anaquelesInsertados = new List<ElementId>();
+                foreach (var it in items17)
+                {
+                    XYZ centro = F4 + dirB1B2 * (it.dist * M) + perp17 * (it.off * M);
+                    FamilyInstance fi = document.Create.NewFamilyInstance(centro, it.sym, StructuralType.NonStructural);
+                    if (Math.Abs(anguloB1B2_17) > 1e-9)
+                        ElementTransformUtils.RotateElement(document, fi.Id, Line.CreateBound(centro, centro + XYZ.BasisZ), anguloB1B2_17);
+                    if (it.sym.Id == symAnaquel.Id) anaquelesInsertados.Add(fi.Id);
+                    totalColocados++;
+                }
+                document.Regenerate();
+                foreach (ElementId id in anaquelesInsertados)
+                {
+                    FamilyInstance fi = document.GetElement(id) as FamilyInstance;
+                    if (fi == null) continue;
+                    Parameter p1 = fi.LookupParameter("Bandeja activa 01");
+                    Parameter p2 = fi.LookupParameter("VISIBILIDAD BANDEJA TRASERA PLANTA");
+                    if (p1 != null && !p1.IsReadOnly) p1.Set(1);
+                    if (p2 != null && !p2.IsReadOnly) p2.Set(1);
+                }
+            }
+
+            // ===== PASO 18 (Puntos G1-G7) =====
+            double G6x, G7x; bool existeG7;
+            if (Sa1 >= 21.35 && Sa1 < 23.55) { G6x = 5.50 + (Sa1 - 21.35); G7x = 0; existeG7 = false; }
+            else { G6x = 5.40 + (Sa1 - 23.75); G7x = 7.34 + (Sa1 - 23.75); existeG7 = true; }
+
+            XYZ G1 = P1 + dirP1P2 * (2.08 * M) + dirP1P4 * (2.09 * M);
+            XYZ G2 = P1 + dirP1P2 * (3.88 * M) + dirP1P4 * (2.39 * M);
+            XYZ G3 = C3 + dirP1P2 * (-1.84 * M) + dirP1P4 * (2.00 * M);
+            XYZ G4 = C3 + dirP1P4 * (2.00 * M);
+            XYZ G5 = C3 + dirP1P2 * (1.84 * M) + dirP1P4 * (2.00 * M);
+            XYZ G6 = C3 + dirP1P2 * (G6x * M) + dirP1P4 * (2.95 * M);
+            XYZ G7 = C3 + dirP1P2 * (G7x * M) + dirP1P4 * (2.95 * M);
+
+            // ===== PASO 19 (Islas Góndolas) =====
+            {
+                double Pb1 = P1.DistanceTo(B1) / M;
+                double Pb2 = Q2.DistanceTo(B2) / M;
+                bool caso1_1 = (Pb1 >= 7.96 && Pb1 < 8.60);
+                bool caso2_1 = (Pb1 >= 8.60 && Pb1 < 8.80);
+                bool caso1_2 = (Pb2 >= 7.96 && Pb2 < 8.60);
+                bool caso2_2 = (Pb2 >= 8.60 && Pb2 < 8.80);
+
+                FamilySymbol symCabecera = BuscarSimbolo(document, "CS12 CABECERA GONDOLA", "FENGPI- Góndola de Pared Inicial FENNEC");
+                FamilySymbol symGondola = BuscarSimbolo(document, "FDA - GONDOLA", "GMS7I.CHO/GMS7A.CHO_1.370m");
+                if (symCabecera == null || symGondola == null)
+                { t.RollBack(); return "ERROR: falta CS12 CABECERA GONDOLA o FDA - GONDOLA del Paso 19."; }
+                Activar(document, symCabecera); Activar(document, symGondola);
+
+                double anguloP1P2 = AnguloDe(dirP1P2);
+                XYZ perpP1P2 = Perp(dirP1P2);
+
+                // Cada fila es {distancia, 1=cabecera/0=gondola, rotacion_relativa}
+                double[,] patronLargo5 = new double[,] {
+                    {0.264,1,0}, {0.733,0,90}, {1.371,0,90}, {2.009,0,90}, {2.478,1,180} };
+                double[,] patronCorto4 = new double[,] {
+                    {0.264,1,0}, {0.733,0,90}, {1.371,0,90}, {1.84,1,180} };
+                double[,] patronLargo6 = new double[,] {
+                    {0.264,1,0}, {0.733,0,90}, {1.371,0,90}, {2.009,0,90}, {2.647,0,90}, {3.116,1,180} };
+                double[,] patronLargo7 = new double[,] {
+                    {0.264,1,0}, {0.733,0,90}, {1.371,0,90}, {2.009,0,90}, {2.647,0,90}, {3.285,0,90}, {3.754,1,180} };
+
+                if (caso1_1)
+                {
+                    totalColocados += ColocarPatronG(document, patronLargo5, G1, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    totalColocados += ColocarPatronG(document, patronCorto4, G2, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    totalColocados += ColocarPatronG(document, patronCorto4, G3, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    totalColocados += ColocarPatronG(document, patronCorto4, G4, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    totalColocados += ColocarPatronG(document, patronCorto4, G5, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                }
+                else if (caso2_1)
+                {
+                    totalColocados += ColocarPatronG(document, patronLargo6, G1, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    totalColocados += ColocarPatronG(document, patronLargo5, G2, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    totalColocados += ColocarPatronG(document, patronLargo5, G3, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    totalColocados += ColocarPatronG(document, patronLargo5, G4, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    totalColocados += ColocarPatronG(document, patronLargo5, G5, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                }
+
+                if (caso1_2)
+                {
+                    totalColocados += ColocarPatronG(document, patronLargo6, G6, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    if (existeG7) totalColocados += ColocarPatronG(document, patronLargo6, G7, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                }
+                else if (caso2_2)
+                {
+                    totalColocados += ColocarPatronG(document, patronLargo7, G6, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                    if (existeG7) totalColocados += ColocarPatronG(document, patronLargo7, G7, perpP1P2, anguloP1P2, symCabecera, symGondola);
+                }
+            }
+
+            // ===== PASO 20 (Caja y cobro) =====
+            XYZ Cj1;
+            {
+                XYZ perpP1P2 = Perp(dirP1P2);
+                Cj1 = F3 + dirP1P2 * (0.19 * M) - perpP1P2 * (1.85 * M);
+
+                                var items20 = new (double x, double y, string fam, string tipo, double rot)[]
+                {
+                    (0.00,    0.0000,  "EQE50 - Esqro. Ext. Mel. Curvo 50x50x100 cms", "CSE61 - Esquinero pCS 50x50x100cms", -90),
+                    (0.25,    0.2674,  "FDA - VITRINA MOSTRADOR", "V12LA.100", 0),
+                    (1.25,   -0.0915,  "CJM12-Caja Simple Mostrador M. Categ. 60x120x100 cms", "CJM12-Caja Simple Mostrador M. Categ. 60x120x100 cms", 0),
+                    (2.45,    0.2674,  "FDA - VITRINA MOSTRADOR", "V12LA.100", 0),
+                    (3.45,    0.2674,  "FDA - VITRINA MOSTRADOR", "V12LA.100", 0),
+                    (4.45,    0.2674,  "FDA - VITRINA MOSTRADOR", "V12LA.100", 0),
+                    (5.45,   -0.0915,  "CJM12-Caja Simple Mostrador M. Categ. 60x120x100 cms", "CJM12-Caja Simple Mostrador M. Categ. 60x120x100 cms", 0),
+                    (6.65,    0.2674,  "FDA - VITRINA MOSTRADOR", "V12LA.100", 0),
+                    (7.65,    0.2674,  "FDA - VITRINA MOSTRADOR", "V12LA.100", 0),
+                    (8.65,   -0.0915,  "CJM12-Caja Simple Mostrador M. Categ. 60x120x100 cms", "CJM12-Caja Simple Mostrador M. Categ. 60x120x100 cms", 0),
+                    (0.0384,  0.6500,  "FDA - PUERTA MOSTRADOR", "FDA - PUERTA MOSTRADOR", 90),
+                    (0.2675,  0.6500,  "FDA - MUEBLE AJUSTE", "V12LA.04", 270),
+                    (10.1017, 0.0000,  "EQE50 - Esqro. Ext. Mel. Curvo 50x50x100 cms", "CSE61 - Esquinero pCS 50x50x100cms", 0),
+                    (9.8342,  0.2500,  "FDA - MUEBLE AJUSTE", "V12LA.04", 90),
+                    (10.1401, 0.6500,  "FDA - PUERTA MOSTRADOR", "FDA - PUERTA MOSTRADOR", 90),
+                };
+                double anguloP1P2_20 = AnguloDe(dirP1P2);
+                foreach (var it in items20)
+                {
+                    FamilySymbol sym = BuscarSimbolo(document, it.fam, it.tipo);
+                    if (sym == null) { t.RollBack(); return "ERROR: no se encontró " + it.fam + " / " + it.tipo + " (Paso 20)."; }
+                    Activar(document, sym);
+                    XYZ centro = Cj1 + dirP1P2 * (it.x * M) + perpP1P2 * (it.y * M);
+                    double angulo = (it.rot * Math.PI / 180.0) + anguloP1P2_20;
+                    Colocar(document, centro, sym, angulo);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 21 (SOM y Trastienda) =====
+            // CORREGIDO v1.9.1: AnS tenia el signo invertido respecto a la inclinacion real
+            // del muro P2-P3 (usaba Angulo(P3->P2) para rotar mientras la posicion usaba
+            // dirP2P3 = direccion P2->P3; mismo patron de bug ya corregido antes en AnT).
+            {
+                XYZ dirP4P3 = (P3 - P4).Normalize();
+                XYZ xLocalTRAST = dirP4P3;
+                XYZ yLocalTRAST = new XYZ(-dirP4P3.Y, dirP4P3.X, 0);
+                XYZ xLocalSOM = new XYZ(dirP2P3.Y, -dirP2P3.X, 0);
+                XYZ yLocalSOM = dirP2P3;
+
+                double AnS = AnguloAB(P2, P3) - (90.0 * Math.PI / 180.0);
+                double AnT = AnguloAB(P4, P3);
+
+                                var itemsSOM = new (double x, double y, string fam, string tipo, double rot)[]
+                {
+                    (-0.859, -2.383, "FDA - CAMILLA SOM", "FDA - CAMILLA SOM", 0),
+                    (-0.930, -2.517, "FDA - BOTIQUIN", "FDA - BOTIQUIN", 180),
+                    (-2.485, -2.719, "FDA - MINI REFRIGERADOR", "Silver_GR-A906ZQST_3.0Cu.ft.", 90),
+                    (-0.116, -2.770, "FDA - MUEBLE CON REPISA SOM", "FDA - MUEBLE CON REPISA SOM", 180),
+                    (-0.958, -4.991, "Furniture_Chairs-Stools&Benches_Akaba_Kabi-4-Legs", "Default - please load Revit Family Type Catalog", 180),
+                    (-0.409, -4.991, "Furniture_Chairs-Stools&Benches_Akaba_Kabi-4-Legs", "Default - please load Revit Family Type Catalog", 180),
+                    (-0.725, -3.780, "Furniture_Chairs-Stools&Benches_Akaba_Kabi-4-Legs", "Default - please load Revit Family Type Catalog", 0),
+                    (-0.725, -4.370, "Mesa - Rectangular", "1.20 x 0.60", 0),
+                };
+                foreach (var it in itemsSOM)
+                {
+                    FamilySymbol sym = BuscarSimbolo(document, it.fam, it.tipo);
+                    if (sym == null) { t.RollBack(); return "ERROR: no se encontró " + it.fam + " / " + it.tipo + " (SOM, Paso 21)."; }
+                    Activar(document, sym);
+                    XYZ centro = P3 + xLocalSOM * (it.x * M) + yLocalSOM * (it.y * M);
+                    Colocar(document, centro, sym, (it.rot * Math.PI / 180.0) + AnS);
+                    totalColocados++;
+                }
+
+                var itemsTRAST = new (double x, double y, string fam, string tipo, double rot)[]
+                {
+                    (-1.677, -0.358, "FDA - BASCULA SOM", "FDA_BASCULA DE VENTA_V2", 0),
+                    (-2.495, -0.343, "FDA-MF-TARJA SENCILLA", "0.76 X 0.53", 0),
+                    (-6.783, -0.107, "FDA-MF-W.C. TANQUE 1", "Vitreous_China-0-White", 0),
+                    (-4.791, -0.107, "FDA-MF-W.C. TANQUE 1", "Vitreous_China-0-White", 0),
+                    (-5.775, -0.270, "FDA-MF-LAVAMANOS PEDESTAL", "LAVAMANOS PEDESTAL", 0),
+                    (-3.658, -0.107, "FDA-MF-W.C. TANQUE 1", "Vitreous_China-0-White", 0),
+                    (-9.783, -1.225, "FDA - TABURETE - MADERA", "Blocco Stool- Mod. 8500-00 (76 cm)", 0),
+                    (-7.895, -0.400, "FDA - TABURETE - MADERA", "Blocco Stool- Mod. 8500-00 (76 cm)", 0),
+                    (-7.895, -1.160, "FDA - TABURETE - MADERA", "Blocco Stool- Mod. 8500-00 (76 cm)", 0),
+                    (-9.745, -0.585, "MTR18-Mesa de Trabajo 100x180x100cms", "Mesa de Trabajo 100x180x100 cms", 0),
+                };
+                foreach (var it in itemsTRAST)
+                {
+                    FamilySymbol sym = BuscarSimbolo(document, it.fam, it.tipo);
+                    if (sym == null) { t.RollBack(); return "ERROR: no se encontró " + it.fam + " / " + it.tipo + " (Trastienda, Paso 21)."; }
+                    Activar(document, sym);
+                    XYZ centro = P3 + xLocalTRAST * (it.x * M) + yLocalTRAST * (it.y * M);
+                    Colocar(document, centro, sym, (it.rot * Math.PI / 180.0) + AnT);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 22 (Trastienda Hilera 1) =====
+            XYZ dirP4P3_22 = (P3 - P4).Normalize();
+            double Ht = P4.DistanceTo(P3) / M;
+            int Az;
+            if (Ht <= 21.30) Az = 0;
+            else if (Ht < 21.90) Az = 1;
+            else if (Ht < 22.50) Az = 2;
+            else if (Ht < 23.10) Az = 3;
+            else Az = 4;
+            int nHilera1 = 7 + Az;
+            {
+                XYZ perp22 = new XYZ(-dirP4P3_22.Y, dirP4P3_22.X, 0);
+                double angulo22 = AnguloDe(dirP4P3_22);
+
+                FamilySymbol symMueble1 = BuscarSimbolo(document, "FDA - MUEBLE TRASTIENDA", "FDA - MUEBLE TRASTIENDA");
+                FamilySymbol symVitrinaPsico = BuscarSimbolo(document, "V15PS-Vitrina Psicotropicos 30x150x200cm", "V75PS-Vitrina Psicotropicos");
+                FamilySymbol symCajaValores = BuscarSimbolo(document, "FDA - CAJA DE VALORES", "FDA - CAJA DE VALORES");
+                if (symMueble1 == null || symVitrinaPsico == null || symCajaValores == null)
+                { t.RollBack(); return "ERROR: falta una familia del Paso 22 (Mueble Trastienda, Vitrina Psicotropicos o Caja de Valores)."; }
+                Activar(document, symMueble1); Activar(document, symVitrinaPsico); Activar(document, symCajaValores);
+
+                double xInicial1 = 0.08, yOffset1 = -0.38, espaciado1 = 0.89;
+                double xUltimoH1 = 0;
+                for (int i = 0; i < nHilera1; i++)
+                {
+                    double xLocal = xInicial1 + i * espaciado1;
+                    xUltimoH1 = xLocal;
+                    XYZ centro = P4 + dirP4P3_22 * (xLocal * M) + perp22 * (yOffset1 * M);
+                    Colocar(document, centro, symMueble1, angulo22);
+                    totalColocados++;
+                }
+                {
+                    double xLocal = xUltimoH1 + 2.08, yLocal = yOffset1 + 0.12;
+                    XYZ centro = P4 + dirP4P3_22 * (xLocal * M) + perp22 * (yLocal * M);
+                    Colocar(document, centro, symVitrinaPsico, angulo22);
+                    totalColocados++;
+                }
+                {
+                    double xLocal = xUltimoH1 + 2.91, yLocal = yOffset1 - 0.70;
+                    XYZ centro = P4 + dirP4P3_22 * (xLocal * M) + perp22 * (yLocal * M);
+                    Colocar(document, centro, symCajaValores, angulo22);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 23 (Trastienda Hilera 2) =====
+            {
+                XYZ perpB1B2_23 = new XYZ(-dirB1B2.Y, dirB1B2.X, 0);
+                double angulo23 = AnguloDe(dirB1B2);
+
+                FamilySymbol symMueble1 = BuscarSimbolo(document, "FDA - MUEBLE TRASTIENDA", "FDA - MUEBLE TRASTIENDA");
+                FamilySymbol symMueble2 = BuscarSimbolo(document, "FDA - MUEBLE TRASTIENDA 0.89L X 0.60A X 2.32H", "FDA - MUEBLE TRASTIENDA 0.89L X 0.60A X 2.32H");
+                if (symMueble1 == null || symMueble2 == null)
+                { t.RollBack(); return "ERROR: falta una familia del Paso 23 (Mueble Trastienda)."; }
+                Activar(document, symMueble1); Activar(document, symMueble2);
+
+                double yOffset2 = -1.77;
+                XYZ puntoEnLineaFila = P4 + perpB1B2_23 * (yOffset2 * M);
+                XYZ interseccionConMuro = Interseccion(puntoEnLineaFila, dirB1B2, P1, dirP1P4);
+                XYZ puntoInicioReal = interseccionConMuro + dirB1B2 * (0.08 * M);
+                double xInicial2 = (puntoInicioReal - P4).DotProduct(dirB1B2) / M;
+
+                double espaciado2 = 0.90;
+                double xUltimoH2 = 0;
+                for (int i = 0; i < nHilera1; i++) // mismo Az del Paso 22
+                {
+                    double xLocal = xInicial2 + i * espaciado2;
+                    xUltimoH2 = xLocal;
+                    XYZ centro = P4 + dirB1B2 * (xLocal * M) + perpB1B2_23 * (yOffset2 * M);
+                    Colocar(document, centro, symMueble2, angulo23);
+                    totalColocados++;
+                }
+                {
+                    double xLocal = xUltimoH2 + 0.90, yLocal = yOffset2 + 0.00;
+                    XYZ centro = P4 + dirB1B2 * (xLocal * M) + perpB1B2_23 * (yLocal * M);
+                    Colocar(document, centro, symMueble1, angulo23);
+                    totalColocados++;
+                }
+                {
+                    double xLocal = xUltimoH2 + 0.90, yLocal = yOffset2 + 0.30;
+                    XYZ centro = P4 + dirB1B2 * (xLocal * M) + perpB1B2_23 * (yLocal * M);
+                    Colocar(document, centro, symMueble1, angulo23);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 24 (Cajas de salida) =====
+            {
+                XYZ perpP1P2_24 = Perp(dirP1P2);
+                double anguloP1P2_24 = AnguloDe(dirP1P2);
+
+                                var items24 = new (double x, double y, string fam, string tipo, double rot)[]
+                {
+                    (6.7222, 1.0011, "FDA - PUERTA MOSTRADOR", "FDA - PUERTA MOSTRADOR", 90),
+                    (6.7377, 0.7011, "MCR60-43 - Mueble de Cierre Recto", "MCR60 - Mueble de Cierre Recto 60x30x100", 90),
+                    (6.5214, 1.9102, "CSE61 - Esquinero pCS 60x60x100 cms a 90gr", "CSE61 - Esquinero pCS 60x60x100cms", 90),
+                    (6.2882, 2.0411, "CSM61 - Caja de Salida Mod.1 60x60x120x100 cms", "CSM61 - Caja de Salida Mod1 60x120x100 cms", 180),
+                    (4.7776, 1.8327, "CSE61 - Esquinero pCS 60x60x100 cms a 90gr", "CSE61 - Esquinero pCS 60x60x100cms", 180),
+                    (4.4707, 0.3995, "FDA - VITRINA MOSTRADOR", "V12LA.120", 90),
+                    (-4.3099, 1.0011, "FDA - PUERTA MOSTRADOR", "FDA - PUERTA MOSTRADOR", 90),
+                    (-4.3251, 0.7011, "MCR60-43 - Mueble de Cierre Recto", "MCR60 - Mueble de Cierre Recto 60x30x100", 90),
+                    (-4.1857, 1.8327, "CSE61 - Esquinero pCS 60x60x100 cms a 90gr", "CSE61 - Esquinero pCS 60x60x100cms", 180),
+                    (-2.6751, 2.0410, "CSM61 - Caja de Salida Mod.1 60x60x120x100 cms", "CSM61 - Caja de Salida Mod1 60x120x100 cms", 180),
+                    (-2.4406, 1.9101, "CSE61 - Esquinero pCS 60x60x100 cms a 90gr", "CSE61 - Esquinero pCS 60x60x100cms", 90),
+                    (-2.5925, 0.3995, "FDA - VITRINA MOSTRADOR", "V12LA.120", 90),
+                };
+                foreach (var it in items24)
+                {
+                    FamilySymbol sym = BuscarSimbolo(document, it.fam, it.tipo);
+                    if (sym == null) { t.RollBack(); return "ERROR: no se encontró " + it.fam + " / " + it.tipo + " (Paso 24)."; }
+                    Activar(document, sym);
+                    XYZ centro = C1 + dirP1P2 * (it.x * M) + perpP1P2_24 * (it.y * M);
+                    Colocar(document, centro, sym, (it.rot * Math.PI / 180.0) + anguloP1P2_24);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 25 (Refrigeradoras laterales) =====
+            {
+                double anguloQ2Q3 = AnguloDe(dirQ2Q3);
+                FamilySymbol symBebidas = BuscarSimbolo(document, "Refrigerador de bebidas 1.09x0.85x2.00", "Refrigerador 1.00x0.68x2.05");
+                FamilySymbol symChico = BuscarSimbolo(document, "Refrigerador 0.55x0.62x1.36", "Refrigerador 0.55x0.62x1.36");
+                if (symBebidas == null || symChico == null)
+                { t.RollBack(); return "ERROR: falta una familia del Paso 25 (Refrigeradoras)."; }
+                Activar(document, symBebidas); Activar(document, symChico);
+
+                var items25 = new (double x, double y, FamilySymbol sym, double rot)[]
+                {
+                    (-0.50, 0.96, symBebidas, 180),
+                    (-0.51, 1.79, symChico, 180),
+                    (-0.51, 2.39, symChico, 180),
+                };
+                foreach (var it in items25)
+                {
+                    XYZ centro = Q2 + dirP1P2 * (it.x * M) + dirQ2Q3 * (it.y * M);
+                    Colocar(document, centro, it.sym, (it.rot * Math.PI / 180.0) + anguloQ2Q3);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 26 (Familias sueltas) =====
+            {
+                double anguloP1P2_26 = AnguloDe(dirP1P2);
+                double anguloB1B2_26 = AnguloDe(dirB1B2);
+                XYZ dirC7C5 = (C5 - C7).Normalize();
+                double anguloC7C5 = AnguloDe(dirC7C5);
+                double Mn = P1.DistanceTo(B1) / M / 2.0;
+                double Gx = ((G6 - G5).DotProduct(dirP1P2) / M) / 2.0;
+                double Hx = ((C5 - C7).DotProduct(dirP1P2) / M) / 2.0;
+                double Xbascula = -(Hx - 0.75);
+
+                                var items26 = new (XYZ origen, double x, double y, string fam, string tipo, double rot, double anguloRef)[]
+                {
+                    (P1, 1.8750, 0.5715, "FDA - MUEBLE CLINIQUE", "FDA - MUEBLE CLINIQUE", 180, anguloP1P2_26),
+                    (P1, 2.4576, 0.4021, "FDA - MUEBLE VISIA", "FDA - MUEBLE VISIA", 0, anguloP1P2_26),
+                    (P1, 1.9865, 6.0347, "TTBI-Tester Bar Isla", "TTBI - Tester Bar Isla", 0, anguloP1P2_26),
+                    (C1, -3.9690, Mn + 0.40, "FDA - MESA EMOTIVO", "FDA - MESA EMOTIVO", 270, anguloB1B2_26),
+                    (C1, 2.70, 0.767, "FDA - NEVERA MEDIANA", "FDA - NEVERA MEDIANA", 0, anguloB1B2_26),
+                    (G5, Gx, Mn - 1.15, "Botadero Outlet", "Botadero Outlet", 0, 0),
+                    (G5, Gx - 0.4, Mn - 1.65, "Botadero Promociones", "Botadero Promociones", 0, 0),
+                    (C5, Xbascula, 0.64, "FDA - BASCULA DE VENTA", "FDA - BASCULA DE VENTA", 180, anguloC7C5),
+                };
+                foreach (var it in items26)
+                {
+                    FamilySymbol sym = BuscarSimbolo(document, it.fam, it.tipo);
+                    if (sym == null) { t.RollBack(); return "ERROR: no se encontró " + it.fam + " / " + it.tipo + " (Paso 26)."; }
+                    Activar(document, sym);
+                    XYZ centro = it.origen + dirP1P2 * (it.x * M) + dirP1P4 * (it.y * M);
+                    Colocar(document, centro, sym, (it.rot * Math.PI / 180.0) + it.anguloRef);
+                    totalColocados++;
+                }
+            }
+
+            // ===== PASO 27 (SOM sillas y maceta) + Muro J1-(Q2Q3) del Paso 10 =====
+            XYZ dirP3P2 = (P2 - P3).Normalize();
+            XYZ J1 = P3 + dirP3P2 * (5.58 * M);
+            {
+                XYZ perpSillas = new XYZ(dirP3P2.Y, -dirP3P2.X, 0);
+                XYZ Mpt = (J1 + P2) / 2.0;
+                double anguloP3P2 = AnguloDe(dirP3P2);
+
+                FamilySymbol symSilla = BuscarSimbolo(document, "Furniture_Chairs-Stools&Benches_Akaba_Kabi-4-Legs", "Default - please load Revit Family Type Catalog");
+                FamilySymbol symMaceta = BuscarSimbolo(document, "F01271_ES_Maceta-Moderna-con-Hoja-Platanera.2019", "Único");
+                if (symSilla == null || symMaceta == null)
+                { t.RollBack(); return "ERROR: falta la silla del SOM o la maceta (Paso 27)."; }
+                Activar(document, symSilla); Activar(document, symMaceta);
+
+                double espaciadoSillas = 0.60;
+                double offsetPerpSillas = 0.73 * M;
+                double[] factores = new double[] { -2.5, -1.5, -0.5, 0.5, 1.5, 2.5 };
+                foreach (double f in factores)
+                {
+                    XYZ centro = Mpt + dirP3P2 * (f * espaciadoSillas * M) + perpSillas * offsetPerpSillas;
+                    Colocar(document, centro, symSilla, anguloP3P2);
+                    totalColocados++;
+                }
+
+                XYZ centroMaceta = P2 + dirP1P2 * (-0.55 * M) + dirP1P4 * (0.55 * M);
+                document.Create.NewFamilyInstance(centroMaceta, symMaceta, StructuralType.NonStructural);
+                totalColocados++;
+            }
+
+            // Muro Durock J1 -> interseccion con Q2-Q3 (perpendicular a P2-P3), y B2-F6, B1-F4 (Paso 10)
+            {
+                XYZ perpP3P2 = new XYZ(-dirP3P2.Y, dirP3P2.X, 0);
+                if (perpP3P2.DotProduct(Q2 - J1) < 0) perpP3P2 = perpP3P2.Negate();
+                XYZ puntoEncuentroJ1 = Interseccion(J1, perpP3P2, Q2, dirQ2Q3);
+                Wall.Create(document, Line.CreateBound(J1, puntoEncuentroJ1), wtDurock.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+                Wall.Create(document, Line.CreateBound(B2, F6), wtDurock.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+                Wall.Create(document, Line.CreateBound(B1, F4), wtDurock.Id, nivel.Id, altura, 0, false, false); totalMuros++;
+            }
+
+            // ===== PASO 28 (Parqueaderos) =====
+            // CORREGIDO v1.9.2: el cajon ADA usaba dirP1P4 (no perpP1P2) para su offset Y.
+            // Ademas, RotateElement aplica un angulo INCREMENTAL (delta desde la rotacion
+            // actual), no un valor absoluto final. Tras MirrorElements(..., mirrorCopy:false)
+            // el elemento queda con una rotacion residual propia (no necesariamente 0), por lo
+            // que sumar "anguloP1P2 + 180°" como si fuera el angulo final duplicaba el giro.
+            // La formula correcta: se lee la rotacion real que deja el espejo y se gira solo
+            // la diferencia (delta) hasta el objetivo absoluto (anguloP1P2 + 180°). Validado
+            // contra la posicion y rotacion que el usuario fijo manualmente en Revit
+            // (X=82.44477, Y=-12.76419, RotDeg=177.65646, Mirrored=True, reproducido exacto).
+            {
+                double anguloP1P2_28 = AnguloDe(dirP1P2);
+                FamilySymbol symCajon = BuscarSimbolo(document, "FDA-CAJON DE ESTACIONAMIENTO 90°", "2.70 X 5.50 2");
+                FamilySymbol symADA = BuscarSimbolo(document, "FDA-CAJON DE ESTACIONAMIENTO - ADA", "ESTACIONAMIENTO DISCAPACITADOS");
+                if (symCajon == null || symADA == null)
+                { t.RollBack(); return "ERROR: falta el cajón de estacionamiento normal o ADA (Paso 28)."; }
+                Activar(document, symCajon); Activar(document, symADA);
+
+                double xInicial28 = 1.28, yFijo28 = -1.47, espaciado28 = 2.70;
+                XYZ centroUltimoCajonNormal = null;
+                for (int i = 0; i < 9; i++)
+                {
+                    double xLocal = xInicial28 + i * espaciado28;
+                    XYZ centro = P1 + dirP1P2 * (xLocal * M) + dirP1P4 * (yFijo28 * M);
+                    Colocar(document, centro, symCajon, anguloP1P2_28);
+                    if (i == 8) centroUltimoCajonNormal = centro; // ultimo cajon ("de remate"), referencia real para el ADA
+                    totalColocados++;
+                }
+
+                XYZ perpP1P2_28 = Perp(dirP1P2);
+                // CORREGIDO v1.9.3: el ADA se posiciona ANCLADO al ultimo cajon normal real
+                // (no con una distancia absoluta fija desde P1, que no escalaba entre layouts).
+                // Se comporta como un 10mo elemento de la misma fila, con un offset fijo medido
+                // empiricamente contra la ubicacion validada manualmente por el usuario en Revit:
+                // +2.7381m a lo largo de P1->P2, y -1.4322m en la perpendicular (mismo lado que
+                // yFijo28, con el ajuste propio del ancho de la familia ADA + su pasillo accesible).
+                XYZ centroADA = centroUltimoCajonNormal + dirP1P2 * (2.7381 * M) + perpP1P2_28 * (-1.4322 * M);
+                FamilyInstance fiADA = document.Create.NewFamilyInstance(centroADA, symADA, StructuralType.NonStructural);
+                document.Regenerate();
+
+                Plane planoEspejo = Plane.CreateByNormalAndOrigin(dirP1P2, centroADA);
+                ElementTransformUtils.MirrorElements(document, new List<ElementId> { fiADA.Id }, planoEspejo, false);
+                document.Regenerate();
+
+                // fiADA.Id puede seguir vivo (transformado in-place) o haber sido reemplazado,
+                // segun la version de Revit. Se re-resuelve el elemento por Id de forma segura.
+                ElementId idADA = fiADA.Id;
+                FamilyInstance fiADAFinal = document.GetElement(idADA) as FamilyInstance;
+                if (fiADAFinal == null)
+                { t.RollBack(); return "ERROR: el elemento ADA no se pudo resolver tras el espejo (Paso 28)."; }
+
+                double rotActualADA = ((LocationPoint)fiADAFinal.Location).Rotation;
+                double rotObjetivoADA = anguloP1P2_28 + Math.PI; // Angulo(P1→P2) + 180°, objetivo absoluto
+                double deltaADA = rotObjetivoADA - rotActualADA;
+
+                if (Math.Abs(deltaADA) > 1e-9)
+                    ElementTransformUtils.RotateElement(document, idADA, Line.CreateBound(centroADA, centroADA + XYZ.BasisZ), deltaADA);
+
+                totalColocados++;
+            }
+
+            // ===== PASO 29 (Adicionales exteriores) =====
+            {
+                double anguloP1P2_29 = AnguloDe(dirP1P2);
+                                var items29 = new (double x, double y, string fam, string tipo, double rot)[]
+                {
+                    (0.4622, -2.1397, "TRANSFORMADOR", "0.95A X 0.85L", 90),
+                    (0.0907, -3.8986, "FDA - EQUIPO ELECTRICO", "FDA - EQUIPO ELECTRICO", 0),
+                    (0.5269, -5.6490, "FDA - ANUNCIO UNIPOLAR TIPO A PLUS", "FDA - ANUNCIO UNIPOLAR TIPO A PLUS", 90),
+                };
+                foreach (var it in items29)
+                {
+                    FamilySymbol sym = BuscarSimbolo(document, it.fam, it.tipo);
+                    if (sym == null) { t.RollBack(); return "ERROR: no se encontró " + it.fam + " / " + it.tipo + " (Paso 29)."; }
+                    Activar(document, sym);
+                    XYZ centro = P1 + dirP1P2 * (it.x * M) + dirP1P4 * (it.y * M);
+                    Colocar(document, centro, sym, (it.rot * Math.PI / 180.0) + anguloP1P2_29);
+                    totalColocados++;
+                }
+            }
+
+            t.Commit();
+        }
+
+        return "ATENEA FA — Plus Media Calle NSE Alto generado OK. " +
+               totalMuros + " muros creados, " + totalColocados + " familias colocadas (29 pasos).";
+    }
+}
