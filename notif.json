@@ -1,7 +1,8 @@
 {
   "active": true,
   "version": "2.1.0",
-  "message": "Atenea available right now V2.1. Enjoy.!",
+  "message": "Atenea available right now V2.1. Enjoy.!
+  Don't use outdated versions",
   "link": "https://app.ateneaio.com",
   "linkText": "Download update"
 }
